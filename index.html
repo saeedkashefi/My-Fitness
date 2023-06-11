@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI|تناسب اندام ایران</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>محاسبه تناسب اندام</h1>
+
+    <form>
+        <label for="weight" class="labels">  (کیلوگرم) وزن</label>
+        <input type="number" id="weight" name="weight" required placeholder="وزن خود را وارد کنید">
+
+        <label for="height" class="labels" > قد (سانتی متر)</label>
+        <input type="number" id="height" name="height" required placeholder="قد خود را وارد کنید">
+
+        <button type="button" onclick="calculateBMI()">محاسبه تناسب اندام</button>
+     </form>
+     <div id="result"></div>
+    
+</body>
+</html>
+
+<script src="program.js"></script>

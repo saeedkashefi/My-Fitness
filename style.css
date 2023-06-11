@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image:linear-gradient(to bottom , rgba(0, 0, 0, 0.575) , rgba(0, 0, 0, 0.945))  , url(../img/1.jpg);
+    background-position: center;
+    background-size:contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+h1{
+    color:rgba(128, 255, 0, 0.767) ;
+    font-family: fonts;
+    font-size: 35px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.767);
+    font-weight: bold;
+    text-align: center;
+}
+
+form {
+    top:50px ;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+    gap:10px ;
+    margin-top: 100px;
+ }
+.labels{
+    color: rgba(255, 217, 0, 0.863);
+    font-size: 20px;
+    font-family: fonts;
+    font-weight: bold;
+}
+input{
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px 15px ;
+    font-family: fonts;
+    font-size: 13px;
+    font-weight: bold;
+    border:none ;
+}
+
+ /* Style the button */
+ button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    /* background-color: #4caf4fc0; */
+    color:rgb(114, 167, 8);
+    font-size: 18px;
+    font-family: fonts;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    transition: 800ms;
+ }
+
+ button:hover{
+     /* color:crimson */
+     background-image: linear-gradient(to right ,  rgba(255, 0, 0, 0.541) 0px , rgba(255, 0, 0, 0.966) 100px);
+ }
+ /* Style the result div */
+ #result {
+    margin-top: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: fonts;
+    text-align: center;
+    box-shadow: 0 0 20px white;
+    
+ }
+
+ @font-face{
+     font-family: fonts;
+     src:url(font/Iranian\ Sans.ttf)
+ }
